@@ -1,0 +1,15 @@
+#debt-reduction-chart .area {
+  fill: steelblue;
+}
+
+#debt-reduction-chart .axis path,
+#debt-reduction-chart .axis line {
+  fill: none;
+  stroke: black;
+  shape-rendering: crispEdges;
+}
+
+#debt-reduction-chart .axis text {
+  font-family: "Arial", sans-serif;
+  font-size: 12px;
+}

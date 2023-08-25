@@ -1,0 +1,38 @@
+/* BubbleChart.css */
+
+#bubble-chart {
+  width: 100%;
+  max-width: 800px; /* Adjust as needed */
+  margin: 20px auto;
+  font-family: "Arial", sans-serif;
+}
+
+#bubble-chart svg {
+  width: 100%;
+  height: auto;
+}
+
+#bubble-chart .axis path,
+#bubble-chart .axis line {
+  fill: none;
+  stroke: black;
+  shape-rendering: crispEdges;
+}
+
+#bubble-chart .axis text {
+  font-size: 12px;
+}
+
+#bubble-chart .bubble {
+  stroke: white;
+  stroke-width: 1.5px;
+  opacity: 0.8;
+}
+
+#bubble-chart .tooltip {
+  background-color: white;
+  border: 1px solid black;
+  padding: 5px;
+  position: absolute;
+  display: none; /* initially hidden */
+}

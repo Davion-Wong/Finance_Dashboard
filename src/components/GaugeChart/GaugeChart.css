@@ -1,0 +1,18 @@
+#gauge-chart {
+  margin: 20px auto;
+}
+
+#gauge-chart .gauge-bg {
+  fill: #808080;
+}
+
+#gauge-chart .gauge-fg {
+  fill: steelblue;
+}
+
+#gauge-chart .gauge-text {
+  text-anchor: middle;
+  color: grey;
+  font-size: 24px;
+  font-weight: bold;
+}

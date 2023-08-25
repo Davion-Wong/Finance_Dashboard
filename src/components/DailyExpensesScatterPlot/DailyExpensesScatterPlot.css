@@ -1,0 +1,22 @@
+#daily-expenses {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+#daily-expenses svg {
+  width: 100%;
+  height: auto;
+}
+
+#daily-expenses .axis path,
+#daily-expenses .axis line {
+  fill: none;
+  stroke: black;
+  shape-rendering: crispEdges;
+}
+
+#daily-expenses .axis text {
+  font-family: "Arial", sans-serif;
+  font-size: 12px;
+}

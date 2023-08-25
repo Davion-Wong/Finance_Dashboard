@@ -1,0 +1,67 @@
+/* MonthlySpendingGraph.css */
+
+#monthly-spending {
+  width: 100%;
+  max-width: 700px; /* Set the max width as needed */
+  margin: 20px auto;
+}
+
+#monthly-spending svg {
+  width: 100%;
+  height: auto;
+}
+
+#monthly-spending .axis path,
+#monthly-spending .axis line {
+  fill: none;
+  stroke: black;
+  shape-rendering: crispEdges;
+}
+
+#monthly-spending .axis text {
+  font-family: "Arial", sans-serif;
+  font-size: 12px;
+}
+
+#monthly-spending .line {
+  fill: none;
+  stroke-width: 4px;
+}
+
+#monthly-spending .tooltip {
+  background-color: white;
+  border: 1px solid black;
+  padding: 5px;
+  position: absolute;
+  display: none; /* initially hidden */
+}
+
+#monthly-spending .dot {
+  fill: steelblue;
+  stroke: white;
+  stroke-width: 1.5px;
+}
+
+.tooltip {
+  position: absolute;
+  text-align: center;
+  padding: 10px;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  pointer-events: none;
+  opacity: 0;
+}
+
+.display-controls,
+.share-controls {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Creates two columns */
+  grid-gap: 10px;
+  margin-bottom: 10px;
+}
+
+#monthly-spending {
+  border: #ccc solid 2px;
+}
+
